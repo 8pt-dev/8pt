@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "8pt": {
+      "url": "https://8pt.dev/api/mcp",
+      "headers": { "Authorization": "Bearer <YOUR_8PT_API_KEY>" }
+    }
+  }
+}

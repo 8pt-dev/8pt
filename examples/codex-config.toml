@@ -1,0 +1,5 @@
+# ~/.codex/config.toml
+# export EIGHTPT_API_KEY=<YOUR_8PT_API_KEY>
+[mcp_servers.8pt]
+url = "https://8pt.dev/api/mcp"
+bearer_token_env_var = "EIGHTPT_API_KEY"
