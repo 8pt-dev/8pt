@@ -1,12 +1,47 @@
 {
   "name": "@8pt-dev/cli",
-  "version": "0.3.0",
-  "description": "8pt CLI: search and install 8pt components, templates, themes, icons and Skills from your terminal or agent.",
+  "version": "0.3.1",
+  "description": "8pt CLI: make any AI model ship professional-grade UI. Search and install 8pt components, templates, themes, icons and Skills from your terminal or coding agent (Claude Code, Cursor, Codex).",
   "type": "module",
-  "bin": { "8pt": "bin/8pt.js" },
-  "files": ["bin", "skill", "README.md"],
-  "engines": { "node": ">=18" },
+  "bin": {
+    "8pt": "bin/8pt.js"
+  },
+  "files": [
+    "bin",
+    "skill",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
   "homepage": "https://8pt.dev",
-  "keywords": ["8pt", "ui", "components", "mcp", "claude", "codex", "cli", "skills"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/8pt-dev/8pt.git",
+    "directory": "cli"
+  },
+  "bugs": {
+    "url": "https://github.com/8pt-dev/8pt/issues",
+    "email": "support@8pt.dev"
+  },
+  "author": "8pt (https://8pt.dev)",
+  "keywords": [
+    "8pt",
+    "mcp",
+    "mcp-server",
+    "ui-components",
+    "claude-code",
+    "cursor",
+    "codex",
+    "trae",
+    "design-system",
+    "ai-coding",
+    "components",
+    "templates",
+    "themes",
+    "icons",
+    "skills",
+    "cli"
+  ],
   "license": "MIT"
 }
