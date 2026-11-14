@@ -1,0 +1,8 @@
+{
+  "name": "8pt",
+  "description": "Curated UI components, full-page templates, themes, icons and Skills for AI coding agents.",
+  "url": "https://8pt.dev",
+  "remotes": [
+    { "type": "streamable-http", "url": "https://8pt.dev/api/mcp", "headers": [ { "name": "Authorization", "description": "Bearer <your 8pt API Key>", "is_required": true, "is_secret": true } ] }
+  ]
+}
