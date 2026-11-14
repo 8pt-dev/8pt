@@ -1,0 +1,12 @@
+{
+  "name": "@8pt-dev/cli",
+  "version": "0.3.0",
+  "description": "8pt CLI: search and install 8pt components, templates, themes, icons and Skills from your terminal or agent.",
+  "type": "module",
+  "bin": { "8pt": "bin/8pt.js" },
+  "files": ["bin", "skill", "README.md"],
+  "engines": { "node": ">=18" },
+  "homepage": "https://8pt.dev",
+  "keywords": ["8pt", "ui", "components", "mcp", "claude", "codex", "cli", "skills"],
+  "license": "MIT"
+}
