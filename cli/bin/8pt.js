@@ -7,7 +7,7 @@ import path from "node:path";
 import readline from "node:readline";
 import { spawn } from "node:child_process";
 
-const VERSION = "0.3.0";
+const VERSION = "0.3.1";
 const BASE = (process.env.EIGHTPT_BASE_URL || "https://8pt.dev").replace(/\/+$/, "");
 const CONF_DIR = process.env.EIGHTPT_CONFIG_DIR || path.join(process.env.XDG_CONFIG_HOME || path.join(os.homedir(), ".config"), "8pt");
 const CONF = path.join(CONF_DIR, "config.json");
